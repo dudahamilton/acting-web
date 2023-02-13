@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import React from 'react'
+import ReactPlayer from 'react-player'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
@@ -20,6 +22,10 @@ export default function Home() {
         alt='Leah Bright Headshot'
         />
         <p>Whether playing the powerful corporate attorney, crime boss or the loving wife, Sheldon’s artistic style is intelligent, powerful and charismatic. </p>
+        <div>
+          <h2>Acting Reel</h2>
+          <ReactPlayer url='https://www.youtube.com/watch?v=8KbB7PGM76A&t=2s' />
+        </div>
         <h2>Headshots and Images </h2>
         <div>
         <img
