@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import React from 'react'
-import ReactPlayer from 'react-player'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import ReactPlayer from 'react-player'
+// import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -17,43 +17,50 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <img 
+        <h1 className="text-3xl font-bold underline">
+        Hello world!
+        </h1>
+
+        {/* <img 
         src='./pictures/leah1.JPG'
         alt='Leah Bright Headshot'
-        />
+        /> */}
         <p>Whether playing the powerful corporate attorney, crime boss or the loving wife, Sheldon’s artistic style is intelligent, powerful and charismatic. </p>
         <div>
           <h2>Acting Reel</h2>
           <ReactPlayer url='https://www.youtube.com/watch?v=8KbB7PGM76A&t=2s' />
+          <button>View more video clips</button>
         </div>
         <h2>Headshots and Images </h2>
         <div>
-        <img
-        src='./pictures/leah2.JPG'
-        alt='Leah Bright Headshot'/>
-        <img 
+        <Image
+        src='/pictures/leah2.jpg'
+        alt='Leah Bright Headshot'
+        width='250'
+        height='250'/>
+        {/* <Image 
         src='./pictures/leah3.JPG'
         alt='Leah Bright Headshot' />
-        <img
+        <Image
         src='./pictures/leah4.JPG'
         alt='Leah Bright Headshot' />
-        <img
+        <Image
         src='./pictures/leah5.JPG'
         alt='Leah Bright Headshot' />
-        <img
-        src='./pictures/leah6.JPG'
+        <Image
+        src='./pictures/leah6.jpg'
         alt='Leah Bright Headshot' />
-        <img
-        src='./pictures/leah7.JPG'
-        alt='Leah Bright Headshot' />
+        <Image
+        src='./pictures/leah7.jpg'
+        alt='Leah Bright Headshot' /> */}
         </div>
         <h2>Selected Credits</h2>
         <h3> Film and TV</h3>
         <h3>Theatre</h3>
         <button>Download CV</button>
-        <img />
+        {/* <img /> */}
         <h2>Voiceover</h2>
-        <img />
+        {/* <img /> */}
         <p>
         Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
         As an actor, he sees himself taking on a deeper form of storytelling.
@@ -67,7 +74,7 @@ export default function Home() {
         Within his first six months of formal training, Sheldon booked roles in the movie Thanks to Her and the episodic series No Joke.
         </p>
 
-        <img />
+        {/* <img /> */}
 
         <p>I am a storyteller. It’s a role that gives me purpose. That’s why it’s been my lifelong vocation.
         I honed my storytelling skills as a television reporter, but now I’ve transitioned into a deeper realm of the art: acting.
