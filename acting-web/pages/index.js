@@ -23,7 +23,7 @@ export default function Home() {
         <div>
           <h2>Acting Reel</h2>
           <ReactPlayer url='https://www.youtube.com/watch?v=XVh8Q695rCo' />
-          <a href='https://www.youtube.com/@ialondradelgado'>
+          <a href='https://www.youtube.com/@ialondradelgado' target="_blank">
             <button>View more video clips</button></a>
         </div>
         <h2>Headshots and Images </h2>
@@ -143,7 +143,8 @@ export default function Home() {
           </tr>
         </table>
         </div>
-        <button>More Credits</button>
+
+        <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'><button>More Credits</button></a>
         
         {/* <img /> */}
         <p>
