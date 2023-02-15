@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 import ReactPlayer from 'react-player'
+import Footer from 'components/Footer'
 // import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -17,14 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">
-        Hello world!
-        </h1>
-
-        {/* <img 
-        src='./pictures/leah1.JPG'
-        alt='Leah Bright Headshot'
-        /> */}
+  
         <p>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
         <div>
           <h2>Acting Reel</h2>
@@ -174,6 +168,7 @@ export default function Home() {
         When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p>
         
       </main>
+      <Footer />
     </>
   )
 }
