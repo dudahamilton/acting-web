@@ -5,7 +5,7 @@ export default function Navbar() {
         <nav>
             <Link href="/">
                 {/* links take any child components */}
-                Leah Bright
+                Alondra Delgado
             </Link>
 
             <Link href="/">

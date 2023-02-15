@@ -64,12 +64,92 @@ export default function Home() {
         width='225'
         height='300'/>
         </div>
+
         <h2>Selected Credits</h2>
-        <h3> Film and TV</h3>
-        <h3>Theatre</h3>
-        <button>Download CV</button>
-        {/* <img /> */}
-        <h2>Voiceover</h2>
+        <h3> Past Film & Video</h3>
+        <div>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Role</th>
+            <th> Year</th>
+          </tr>
+
+          <tr>
+            <td>Safehouse</td>
+            <td>Carla</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>You Are not Alone</td>
+            <td>Lily</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>Kickball</td>
+            <td>Andrea</td>
+            <td>2021</td>  
+          </tr>
+
+          <tr>
+            <td>Losing You</td>
+            <td>Wife</td>
+            <td>2017</td>
+          </tr>
+
+          <tr>
+            <td>A will to Love</td>
+            <td>Veronica</td>
+            <td>2017</td>
+          </tr>
+
+        </table>
+        </div>
+
+        <h3> Past Television</h3>
+        <div>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Role</th>
+            <th> Year</th>
+          </tr>
+
+          <tr>
+            <td>All American</td>
+            <td>Vanessa</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>Mayans M.C</td>
+            <td>Young Rebel Woman</td>
+            <td>2018</td>
+          </tr>
+
+          <tr>
+            <td>Vida</td>
+            <td>Rosario</td>
+            <td>2019</td>  
+          </tr>
+
+          <tr>
+            <td>Downtown Brows</td>
+            <td>Miranda</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>Angels Perdidos</td>
+            <td>Elenita</td>
+            <td>2006</td>
+          </tr>
+        </table>
+        </div>
+        <button>More Credits</button>
+        
         {/* <img /> */}
         <p>
         Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
