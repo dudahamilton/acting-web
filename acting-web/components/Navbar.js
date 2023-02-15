@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import styles from '@/styles/Navbar.module.css'
 
 export default function Navbar() {
     return (
-        <nav>
-            <Link href="/">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <Link href="/" class="navbar-brand">
                 {/* links take any child components */}
                 Alondra Delgado
             </Link>

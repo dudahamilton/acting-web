@@ -24,7 +24,7 @@ export default function Home() {
           <h2>Acting Reel</h2>
           <ReactPlayer url='https://www.youtube.com/watch?v=XVh8Q695rCo' />
           <a href='https://www.youtube.com/@ialondradelgado' target="_blank">
-            <button>View more video clips</button></a>
+          <button className="btn btn-primary m-3">View More Videos</button></a>
         </div>
         <h2>Headshots and Images </h2>
         <div>
