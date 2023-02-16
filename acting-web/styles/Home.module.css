@@ -1,1 +1,11 @@
 /* Here goes styling for the main page  */
+
+.firstImage{
+    margin: 50px;
+}
+.coolText{
+    width: 720px;
+    display: flex;
+    margin: 0 auto;
+}
+

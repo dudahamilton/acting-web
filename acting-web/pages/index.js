@@ -18,8 +18,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-  
-        <p>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
+
+      <Image
+        src='/pictures/alondra7.png'
+        alt='Alondra Headshot'
+        width='1500'
+        height='700' />
+
+        <div className={styles.coolText}>
+        <p className={styles.firstImage}>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
+        </div>
+
         <div>
           <h2>Acting Reel</h2>
           <ReactPlayer url='https://www.youtube.com/watch?v=XVh8Q695rCo' />
@@ -170,6 +179,7 @@ export default function Home() {
         When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p>
         
       </main>
+      
       <Footer />
     </>
   )
