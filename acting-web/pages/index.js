@@ -84,49 +84,51 @@ export default function Home() {
         <h2 className={styles.h2}>Selected Credits</h2>
         <h3> Past Film & Video</h3>
         <div>
-        <table class="table table-striped">
-          <tr>
-            <th>Title</th>
-            <th>Role</th>
-            <th> Year</th>
-          </tr>
+          <div className={styles.table}>
+          <table class="table table-success table-striped">
+            <tr>
+              <th>Title</th>
+              <th>Role</th>
+              <th> Year</th>
+           </tr>
 
-          <tr>
-            <td>Safehouse</td>
-            <td>Carla</td>
-            <td>2023</td>
-          </tr>
+            <tr>
+              <td>Safehouse</td>
+              <td>Carla</td>
+              <td>2023</td>
+            </tr>
 
-          <tr>
-            <td>You Are not Alone</td>
-            <td>Lily</td>
-            <td>2015</td>
-          </tr>
+            <tr>
+              <td>You Are not Alone</td>
+              <td>Lily</td>
+              <td>2015</td>
+            </tr>
 
-          <tr>
-            <td>Kickball</td>
-            <td>Andrea</td>
-            <td>2021</td>  
-          </tr>
+           <tr>
+             <td>Kickball</td>
+             <td>Andrea</td>
+              <td>2021</td>  
+           </tr>
 
-          <tr>
+           <tr>
             <td>Losing You</td>
             <td>Wife</td>
             <td>2017</td>
-          </tr>
+           </tr>
 
-          <tr>
+           <tr>
             <td>A will to Love</td>
             <td>Veronica</td>
             <td>2017</td>
-          </tr>
+           </tr>
 
-        </table>
+          </table>
         </div>
+       
 
         <h3> Past Television</h3>
-        <div>
-        <table class="table table-striped">
+        <div className={styles.table}>
+        <table class="table table-success table-striped">
           <tr>
             <th>Title</th>
             <th>Role</th>
@@ -164,6 +166,9 @@ export default function Home() {
           </tr>
         </table>
         </div>
+
+        </div>
+       
 
         <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'>
           <div className={styles.container}>
@@ -210,3 +215,11 @@ export default function Home() {
     </>
   )
 }
+
+
+
+// fazer o Footer
+// centralizar tables
+// navbar smooth scrowling
+// mudar cor do background e fonte
+// responsive
