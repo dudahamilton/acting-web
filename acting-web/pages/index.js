@@ -210,8 +210,6 @@ export default function Home() {
           When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p></div>
         
       </main>
-      
-      <Footer />
     </>
   )
 }
