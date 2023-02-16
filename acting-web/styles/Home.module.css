@@ -1,12 +1,18 @@
 /* Here goes styling for the main page  */
-
-.firstImage{
-    margin: 50px;
+.h2{
+    text-align: center;
+    margin: 30px;
+    color:#db431d;
+    font-size: 30px;
 }
-.coolText{
-    width: 720px;
+.firstText{
+    margin: 60px;
+}
+.text{
+    width: 900px;
     display: flex;
     margin: 0 auto;
+    font-size: 20px;
 }
 .showreel {
     margin: 0 auto;

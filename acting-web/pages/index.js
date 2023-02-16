@@ -25,8 +25,8 @@ export default function Home() {
         width='1500'
         height='700' />
 
-        <div className={styles.coolText}>
-        <p className={styles.firstImage}>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
+        <div className={styles.text}>
+        <p className={styles.firstText}>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
         </div>
 
         
@@ -36,7 +36,7 @@ export default function Home() {
           <div className={styles.container}><button className={styles.btn}>View More Videos</button></div>
           </a>
         
-        <h2>Headshots and Images </h2>
+        <h2 className={styles.h2}>Headshots & Images </h2>
         <div>
         <Image
         src='/pictures/alondra1.png'
@@ -70,7 +70,7 @@ export default function Home() {
         height='300'/>
         </div>
 
-        <h2>Selected Credits</h2>
+        <h2 className={styles.h2}>Selected Credits</h2>
         <h3> Past Film & Video</h3>
         <div>
         <table>
@@ -161,27 +161,29 @@ export default function Home() {
         </a>
         
         {/* <img /> */}
-        <p>
-        Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
-        As an actor, he sees himself taking on a deeper form of storytelling.
+        <div className={styles.text}>
+          <p className={styles.firstText}>
+          Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
+          As an actor, he sees himself taking on a deeper form of storytelling.
 
-        Sheldon’s devotion to acting is driven by a desire to do more, show more, and to live the lives and circumstances that confront each of us.
+          Sheldon’s devotion to acting is driven by a desire to do more, show more, and to live the lives and circumstances that confront each of us.
 
-        In just one year, Sheldon has studied under HB Studio, Andrew Wood Acting Studio, the New York Performing Arts Academy, and The Actor’s Workshop. He’s now a student of Tom Kibbe, who studied directly under Stella Adler, Sanford Meisner and Lee Strasberg.
+          In just one year, Sheldon has studied under HB Studio, Andrew Wood Acting Studio, the New York Performing Arts Academy, and The Actor’s Workshop. He’s now a student of Tom Kibbe, who studied directly under Stella Adler, Sanford Meisner and Lee Strasberg.
 
-        He maintains a hunger to learn, explore and do the work.
+          He maintains a hunger to learn, explore and do the work.
 
-        Within his first six months of formal training, Sheldon booked roles in the movie Thanks to Her and the episodic series No Joke.
-        </p>
+          Within his first six months of formal training, Sheldon booked roles in the movie Thanks to Her and the episodic series No Joke.
+          </p>
+        </div>
 
         {/* <img /> */}
+        <div className={styles.text}>
+          <p className={styles.firstText}>I am a storyteller. It’s a role that gives me purpose. That’s why it’s been my lifelong vocation.
+          I honed my storytelling skills as a television reporter, but now I’ve transitioned into a deeper realm of the art: acting.
 
-        <p>I am a storyteller. It’s a role that gives me purpose. That’s why it’s been my lifelong vocation.
-        I honed my storytelling skills as a television reporter, but now I’ve transitioned into a deeper realm of the art: acting.
+          I enjoy the synergistic sensation of seeing, listening, feeling, speaking and moving — with profound meaning — as part of a storyline.
 
-        I enjoy the synergistic sensation of seeing, listening, feeling, speaking and moving — with profound meaning — as part of a storyline.
-
-        When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p>
+          When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p></div>
         
       </main>
       
