@@ -1,4 +1,12 @@
 /* here goes footer styling */
-.facebook {
-    background-color: #3b5998;
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #FCF3CF ;
+}
+.footer{
+    margin:8px;
+}
+.socials{
+    
 }
