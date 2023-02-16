@@ -1,2 +1,17 @@
 /* Here goes the styling for the nav bar */
 
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #FCF3CF ;
+    height: 65px;
+    
+}
+.item{
+    margin:15px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -216,7 +216,7 @@ export default function Home() {
 
 
 
-// fazer o Footer
+// fazer o Footer ✅
 // centralizar tables
 // navbar smooth scrowling
 // mudar cor do background e fonte

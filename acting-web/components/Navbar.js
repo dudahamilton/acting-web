@@ -3,35 +3,35 @@ import styles from '@/styles/Navbar.module.css'
 
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class='container-fluid'>
-            <Link href="/" class="navbar-brand" >
+        <nav >
+            <div className={styles.container}>
+            <Link href="/" className={styles.item} >
                 {/* links take any child components */}
                 Alondra Delgado
             </Link>
            
 
-            <Link href="/" class="nav-link nav-item">
+            <Link href="/" className={styles.item}>
                 Contact
                 
             </Link>
 
-            <Link href="/" class="nav-link nav-item">
+            <Link href="/" className={styles.item}>
                 {/* links take any child components */}
                 About
             </Link>
 
-            <Link href="/" class="nav-link">
+            <Link href="/" className={styles.item}>
                 {/* links take any child components */}
                 Showreel
             </Link>
 
-            <Link href="/" class="nav-link">
+            <Link href="/" className={styles.item}>
                 {/* links take any child components */}
                 Headshots and Images
             </Link>
 
-            <Link href="/" class="nav-link">
+            <Link href="/" className={styles.item}>
                 {/* links take any child components */}
                 CV
             </Link>

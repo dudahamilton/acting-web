@@ -19,7 +19,7 @@ export default function footer(){
                 reception@ddoagency.com
                 </p>
             </div>
-            <div className={styles.footer}>
+            <div className={styles.socials}>
                 <h3>Social</h3>
                 <div>
                 <SocialIcon url="https://www.instagram.com/ialondradelgado/?hl=en" />
@@ -34,9 +34,9 @@ export default function footer(){
                 </div>    
             </div>
 
-            <div className={styles.footer}>
+            <div className={styles.socials}>
                 <h3>Acting Profiles</h3>
-                <a target='_blank' href='https://pro.imdb.com/name/nm4549589/?ref_=recent_view_1'>
+                <a className={styles.item} target='_blank' href='https://pro.imdb.com/name/nm4549589/?ref_=recent_view_1'>
                 <Image
                     src='/pictures/imdb.png'
                     alt='imdb logo'

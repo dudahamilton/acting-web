@@ -3,10 +3,18 @@
     display:flex;
     justify-content: space-between;
     background-color: #FCF3CF ;
+    
 }
 .footer{
     margin:8px;
 }
 .socials{
-    
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    margin:8px;
+}
+.item{
+    align-self: flex-start;
 }
