@@ -5,6 +5,13 @@
     color:#db431d;
     font-size: 30px;
 }
+.images{
+    text-align: center;
+}
+.image{
+    margin: 20px;
+
+}
 .firstText{
     margin: 60px;
 }

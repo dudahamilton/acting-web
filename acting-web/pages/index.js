@@ -37,43 +37,54 @@ export default function Home() {
           </a>
         
         <h2 className={styles.h2}>Headshots & Images </h2>
+        <div className={styles.images}>
+        <div>
+          <Image
+          className={styles.image}
+          src='/pictures/alondra1.png'
+          alt='Alondra Headshot'
+          width='225'
+          height='300'/>
+          <Image
+          className={styles.image}
+          src='/pictures/alondra2.png'
+          alt='Alondra Headshot'
+          width='225'
+          height='300'/>
+          <Image
+          className={styles.image}
+          src='/pictures/alondra3.png'
+          alt='Alondra Headshot'
+          width='225'
+          height='300'/>
+        </div>
+        
         <div>
         <Image
-        src='/pictures/alondra1.png'
-        alt='Alondra Headshot'
-        width='225'
-        height='300'/>
-        <Image
-        src='/pictures/alondra2.png'
-        alt='Alondra Headshot'
-        width='225'
-        height='300'/>
-        <Image
-        src='/pictures/alondra3.png'
-        alt='Alondra Headshot'
-        width='225'
-        height='300'/>
-        <Image
+        className={styles.image}
         src='/pictures/alondra4.png'
         alt='Alondra Headshot'
         width='225'
         height='300'/>
        <Image
+        className={styles.image}
         src='/pictures/alondra5.png'
         alt='Alondra Headshot'
         width='225'
         height='300'/>
        <Image
+        className={styles.image}
         src='/pictures/alondra6.png'
         alt='Alondra Headshot'
         width='225'
         height='300'/>
         </div>
+        </div>
 
         <h2 className={styles.h2}>Selected Credits</h2>
         <h3> Past Film & Video</h3>
         <div>
-        <table>
+        <table class="table table-striped">
           <tr>
             <th>Title</th>
             <th>Role</th>
@@ -115,7 +126,7 @@ export default function Home() {
 
         <h3> Past Television</h3>
         <div>
-        <table>
+        <table class="table table-striped">
           <tr>
             <th>Title</th>
             <th>Role</th>
@@ -164,24 +175,32 @@ export default function Home() {
         <div className={styles.text}>
           <p className={styles.firstText}>
           Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
+          <p></p>
           As an actor, he sees himself taking on a deeper form of storytelling.
+          <p></p>
 
           Sheldon’s devotion to acting is driven by a desire to do more, show more, and to live the lives and circumstances that confront each of us.
+          <p></p>
 
           In just one year, Sheldon has studied under HB Studio, Andrew Wood Acting Studio, the New York Performing Arts Academy, and The Actor’s Workshop. He’s now a student of Tom Kibbe, who studied directly under Stella Adler, Sanford Meisner and Lee Strasberg.
+          <p></p>
 
           He maintains a hunger to learn, explore and do the work.
-
+          <p></p>
           Within his first six months of formal training, Sheldon booked roles in the movie Thanks to Her and the episodic series No Joke.
           </p>
         </div>
 
-        {/* <img /> */}
+        <Image
+        src='/pictures/alondra8.png'
+        alt='Alondra Headshot'
+        width='1500'
+        height='750' />
         <div className={styles.text}>
-          <p className={styles.firstText}>I am a storyteller. It’s a role that gives me purpose. That’s why it’s been my lifelong vocation.
+          <p className={styles.firstText}>I am a storyteller. It’s a role that gives me purpose. That’s why it’s been my lifelong vocation. <p></p>
           I honed my storytelling skills as a television reporter, but now I’ve transitioned into a deeper realm of the art: acting.
-
-          I enjoy the synergistic sensation of seeing, listening, feeling, speaking and moving — with profound meaning — as part of a storyline.
+            <p></p>
+          I enjoy the synergistic sensation of seeing, listening, feeling, speaking and moving — with profound meaning — as part of a storyline.<p></p>
 
           When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p></div>
         
