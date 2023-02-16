@@ -1,5 +1,6 @@
 /* Here goes styling for global (whole page) */
-/* body {
-    background-color: black ;
-    color:pink;
-} */
+body {
+    background-color: #F5EEF8 ;
+    color: black;
+    margin: 0
+}

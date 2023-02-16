@@ -3,15 +3,28 @@
 .container{
     display:flex;
     justify-content: space-between;
-    background-color: #FCF3CF ;
-    height: 65px;
+    background-color: #F9CAAB  ;
+    height: 86px;
+    width:100%;
+    position:fixed;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
     
 }
 .item{
     margin:15px;
-    padding: 5px;
+    padding: 12px;
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.alondra{
+    margin:15px;
+    padding: 12px;
+    text-decoration: none;
+    color: #db431d;
+    font-size: 30px;
     font-weight: bold;
 }

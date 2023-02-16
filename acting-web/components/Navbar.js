@@ -5,35 +5,34 @@ export default function Navbar() {
     return (
         <nav >
             <div className={styles.container}>
-            <Link href="/" className={styles.item} >
+            <Link href="/" className={styles.alondra} >
                 {/* links take any child components */}
                 Alondra Delgado
             </Link>
            
 
-            <Link href="/" className={styles.item}>
-                Contact
+            <Link href="#video" className={styles.item}>
+                Acting Reel
                 
             </Link>
 
-            <Link href="/" className={styles.item}>
-                {/* links take any child components */}
+            <Link href="#images" className={styles.item}>
+                
+                Headshots & Images
+            </Link>
+
+            <Link href="#credits" className={styles.item}>
+                
+                Credits
+            </Link>
+
+            <Link href="#about" className={styles.item}>
+                
                 About
             </Link>
 
-            <Link href="/" className={styles.item}>
-                {/* links take any child components */}
-                Showreel
-            </Link>
-
-            <Link href="/" className={styles.item}>
-                {/* links take any child components */}
-                Headshots and Images
-            </Link>
-
-            <Link href="/" className={styles.item}>
-                {/* links take any child components */}
-                CV
+            <Link href="#contact" className={styles.item}>
+                Contact
             </Link>
 
             

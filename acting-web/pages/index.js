@@ -2,11 +2,9 @@ import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 import ReactPlayer from 'react-player'
-import Footer from 'components/Footer'
-// import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-// const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -24,7 +22,7 @@ export default function Home() {
         alt='Alondra Headshot'
         width='1500'
         height='700' />
-
+      <section id='video'>
         <div className={styles.text}>
         <p className={styles.firstText}>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
         </div>
@@ -35,7 +33,8 @@ export default function Home() {
           <a href='https://www.youtube.com/@ialondradelgado' target="_blank">
           <div className={styles.container}><button className={styles.btn}>View More Videos</button></div>
           </a>
-        
+      </section>
+      <section id='images'>
         <h2 className={styles.h2}>Headshots & Images </h2>
         <div className={styles.images}>
         <div>
@@ -80,7 +79,9 @@ export default function Home() {
         height='300'/>
         </div>
         </div>
+      </section>
 
+      <section id='credits'>
         <h2 className={styles.h2}>Selected Credits</h2>
         <h3> Past Film & Video</h3>
         <div>
@@ -168,6 +169,8 @@ export default function Home() {
         </div>
 
         </div>
+      
+      
        
 
         <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'>
@@ -175,8 +178,9 @@ export default function Home() {
             <button className={styles.btn}>More Credits</button>
           </div>
         </a>
+      </section>
         
-        {/* <img /> */}
+      <section id='about'>
         <div className={styles.text}>
           <p className={styles.firstText}>
           Sheldon is a two-time Emmy winning storyteller who has spent his entire adult life in front of the camera as a television news reporter.
@@ -208,7 +212,7 @@ export default function Home() {
           I enjoy the synergistic sensation of seeing, listening, feeling, speaking and moving — with profound meaning — as part of a storyline.<p></p>
 
           When I deliver that package of creative art to an audience, then see its impact — it comes alive as power and beauty in the same breath.</p></div>
-        
+        </section>
       </main>
     </>
   )

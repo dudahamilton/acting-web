@@ -2,7 +2,8 @@
 .container{
     display:flex;
     justify-content: space-between;
-    background-color: #FCF3CF ;
+    background-color: #F9CAAB  ;
+    color: black;
     
 }
 .footer{

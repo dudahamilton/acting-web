@@ -10,7 +10,7 @@ export default function footer(){
     return (
         <div className={styles.container}>
             <div className={styles.footer}>
-            <h3>Contact</h3>
+            <h3 id='contact'>Contact</h3>
             <h5>DDO Artists Agency <br /> </h5>
                <p> Reprensentatives: <br />
                 Anthony Boyer <br />
