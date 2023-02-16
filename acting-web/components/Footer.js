@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from '@/styles/Footer.module.css'
+import Image from 'next/image'
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -17,14 +18,27 @@ export default function footer(){
                 reception@ddoagency.com
                 </p>
             <div>
+                <h3>Social</h3>
                 <SocialIcon url="https://www.instagram.com/ialondradelgado/?hl=en" />
                 <SocialIcon url="https://www.tiktok.com/@ialondradelgado" />
                 <SocialIcon url="https://twitter.com/alondraamariee1?lang=en" />
                 <SocialIcon url="https://www.facebook.com/loly5719" />
 
-            <p>© Made by Maria Hamilton with ❤️</p>
-            <SocialIcon url="https://www.linkedin.com/in/mariahamiltondev/" />
+            <div>
+                <h3>Acting Profiles</h3>
+                <a target='_blank' href='https://pro.imdb.com/name/nm4549589/?ref_=recent_view_1'>
+                <Image
+                    src='/pictures/imdb.png'
+                    alt='imdb logo'
+                    width='90'
+                    height='50'/>
+                </a>
+            </div>
 
+            <div>
+                <p>© Made by Maria Hamilton with ❤️</p>
+                <SocialIcon url="https://www.linkedin.com/in/mariahamiltondev/" />
+            </div>
             </div>
                 
         </div>
