@@ -8,4 +8,23 @@
     display: flex;
     margin: 0 auto;
 }
+.showreel {
+    margin: 0 auto;
+    
+}
+.container{
+    text-align: center;
+}
+.btn {
+    background-color: #db431d;
+    padding: 8px;
+    margin: 30px;
+    border: #db431d;
+    border-radius: 5%;
+    justify-content: center;
+    
+
+}
+
+
 

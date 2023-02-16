@@ -29,12 +29,13 @@ export default function Home() {
         <p className={styles.firstImage}>Whether playing the powerful corporate attorney, crime boss or the loving wife, Alondra’s artistic style is intelligent, powerful and charismatic. </p>
         </div>
 
-        <div>
-          <h2>Acting Reel</h2>
-          <ReactPlayer url='https://www.youtube.com/watch?v=XVh8Q695rCo' />
+        
+          
+          <ReactPlayer className={styles.showreel} url='https://www.youtube.com/watch?v=XVh8Q695rCo' />
           <a href='https://www.youtube.com/@ialondradelgado' target="_blank">
-          <button className="btn btn-primary m-3">View More Videos</button></a>
-        </div>
+          <div className={styles.container}><button className={styles.btn}>View More Videos</button></div>
+          </a>
+        
         <h2>Headshots and Images </h2>
         <div>
         <Image
@@ -153,7 +154,11 @@ export default function Home() {
         </table>
         </div>
 
-        <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'><button>More Credits</button></a>
+        <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'>
+          <div className={styles.container}>
+            <button className={styles.btn}>More Credits</button>
+          </div>
+        </a>
         
         {/* <img /> */}
         <p>
