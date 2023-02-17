@@ -40,7 +40,7 @@ export default function footer(){
                     src='/pictures/imdb.png'
                     alt='imdb logo'
                     width='90'
-                    height='50'/>
+                    height='80'/>
                 </a>
             </div>        
         </div>
