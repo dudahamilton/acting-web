@@ -10,9 +10,10 @@
 }
 
 .table{
-    width: 800px;
-    
+    width: 1200px;
+    text-align: center;   
 }
+
 .image{
     margin: 20px;
 
@@ -35,7 +36,7 @@
 }
 .btn {
     background-color: #db431d;
-    padding: 8px;
+    padding: 15px;
     margin: 30px;
     border: #db431d;
     border-radius: 5%;
@@ -43,6 +44,13 @@
     
 
 }
+.divs{
+    display:flex;
+    justify-content: center;
+}
+
+
+
 
 
 

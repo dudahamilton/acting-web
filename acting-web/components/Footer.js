@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import styles from '@/styles/Footer.module.css'
 import Image from 'next/image'
 import { SocialIcon } from 'react-social-icons';
@@ -10,17 +9,17 @@ export default function footer(){
     return (
         <div className={styles.container}>
             <div className={styles.footer}>
-            <h3 id='contact'>Contact</h3>
+            <h2 id='contact'>Contact</h2>
             <h5>DDO Artists Agency <br /> </h5>
                <p> Reprensentatives: <br />
                 Anthony Boyer <br />
                 Candance Stewart <br />
-                +1 323 462 8000 <br />
-                reception@ddoagency.com
+                📞 +1 323 462 8000 <br />
+                ✉️ reception@ddoagency.com
                 </p>
             </div>
             <div className={styles.socials}>
-                <h3>Social</h3>
+                <h2>Social</h2>
                 <div>
                 <SocialIcon url="https://www.instagram.com/ialondradelgado/?hl=en" />
                 <SocialIcon url="https://www.tiktok.com/@ialondradelgado" />
@@ -34,8 +33,8 @@ export default function footer(){
                 </div>    
             </div>
 
-            <div className={styles.socials}>
-                <h3>Acting Profiles</h3>
+            <div className={styles.imdb}>
+                <h2>Acting Profiles</h2>
                 <a className={styles.item} target='_blank' href='https://pro.imdb.com/name/nm4549589/?ref_=recent_view_1'>
                 <Image
                     src='/pictures/imdb.png'

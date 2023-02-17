@@ -83,10 +83,11 @@ export default function Home() {
 
       <section id='credits'>
         <h2 className={styles.h2}>Selected Credits</h2>
-        <h3> Past Film & Video</h3>
+        
         <div>
-          <div className={styles.table}>
-          <table class="table table-success table-striped">
+        <h3> Past Film & Video</h3>
+        <div className={styles.divs}>
+          <table className={styles.table}>
             <tr>
               <th>Title</th>
               <th>Role</th>
@@ -128,8 +129,8 @@ export default function Home() {
        
 
         <h3> Past Television</h3>
-        <div className={styles.table}>
-        <table class="table table-success table-striped">
+      <div className={styles.divs}> 
+        <table className={styles.table}>
           <tr>
             <th>Title</th>
             <th>Role</th>
@@ -144,7 +145,7 @@ export default function Home() {
 
           <tr>
             <td>Mayans M.C</td>
-            <td>Young Rebel Woman</td>
+            <td>Woman</td>
             <td>2018</td>
           </tr>
 
@@ -166,12 +167,10 @@ export default function Home() {
             <td>2006</td>
           </tr>
         </table>
-        </div>
+      </div>
+        
 
         </div>
-      
-      
-       
 
         <a target="_blank" href='https://pro.imdb.com/name/nm4549589/credits'>
           <div className={styles.container}>
@@ -220,8 +219,8 @@ export default function Home() {
 
 
 
-// fazer o Footer ✅
+// Debug
 // centralizar tables
-// navbar smooth scrowling
-// mudar cor do background e fonte
+// navbar smooth scrowling ✅
+
 // responsive
