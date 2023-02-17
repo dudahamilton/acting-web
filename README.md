@@ -31,8 +31,8 @@ My project 4 will be a website i'm making for an actress (friend of mine). The w
 * Route that takes to other professional videos of the client 
 
 ## Wireframes:
-<img src='/public/pictures/wf1.png'/>
-<img src='/public/pictures/wf2.png'/>
-<img src='/public/pictures/wf3.png'/>
-<img src='/public/pictures/wf4.png'/>
-<img src='/public/pictures/wf5.png'/>
+<img src='/pictures/wf1.png'/>
+<img src='/pictures/wf2.png'/>
+<img src='/pictures/wf3.png'/>
+<img src='/pictures/wf4.png'/>
+<img src='/pictures/wf5.png'/>
